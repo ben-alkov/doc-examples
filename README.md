@@ -1,4 +1,5 @@
-# Repo of examples for Hermeto docs
+# README
 
-Individual examples each live in their own branch (e.g. the basic `pip` example is in
-the 'pip-basic' branch)
+A simple Python project, with a single Python-only dependency, which outputs
+colored text to the terminal, and demonstrates using Hermeto to fetch
+dependencies and enable a hermetic container build for `pip`.

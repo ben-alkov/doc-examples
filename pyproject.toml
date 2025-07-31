@@ -1,0 +1,29 @@
+[build-system]
+requires = ["flit_core>=3.10.1,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "simple_color_output"
+version = "0.0.1"
+authors = [
+    {name = "Ben Alkov", email = "ben.alkov@redhat.com"},
+]
+description = "Simple Python program outputting color text to the terminal"
+readme = "README.md"
+requires-python = ">=3.12"
+keywords = [
+    'color',
+    'terminal'
+]
+
+license = {text = "MIT License"}
+
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3',
+    'Topic :: Terminals'
+]
+
